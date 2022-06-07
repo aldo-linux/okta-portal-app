@@ -1,3 +1,11 @@
+#
+
+## References
+- [Sign in to SPA with embedded Widget](https://developer.okta.com/docs/guides/archive-sign-in-to-spa-embedded-widget/react/main/#add-an-openid-connect-client-in-okta)
+
+## Known Issues / Resolutions
+- [In react-router-dom v6 useNavigate() is replaced by useNavigate()](https://stackoverflow.com/questions/62861269/attempted-import-error-useNavigate-is-not-exported-from-react-router-dom)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
