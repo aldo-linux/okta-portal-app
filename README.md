@@ -1,10 +1,25 @@
 #
+## Run the Okta Portal Application
+1. Create ```.env``` file in the root directory with following contents
+```
+REACT_APP_OKTA_DOMAIN='dev-XXXXXX.oktapreview.com'
+REACT_APP_OKTA_CLIENT_ID='xxxxxxxxxxxxxxxxxxxx'
+```
+2. Install npm dependencies
+```
+npm install
+```
+
+3. Run the applications
+```
+npm start
+```
 
 ## References
 - [Sign in to SPA with embedded Widget](https://developer.okta.com/docs/guides/archive-sign-in-to-spa-embedded-widget/react/main/#add-an-openid-connect-client-in-okta)
 
 ## Known Issues / Resolutions
-- [In react-router-dom v6 useNavigate() is replaced by useNavigate()](https://stackoverflow.com/questions/62861269/attempted-import-error-useNavigate-is-not-exported-from-react-router-dom)
+-  ```npx create-react-app``` creates a react starter application using ```react-router-dom v6``` by default. Tweak the package.json to version 5.3.3
 
 # Getting Started with Create React App
 
