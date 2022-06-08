@@ -4,6 +4,7 @@
 ```
 REACT_APP_OKTA_DOMAIN='dev-XXXXXX.oktapreview.com'
 REACT_APP_OKTA_CLIENT_ID='xxxxxxxxxxxxxxxxxxxx'
+REACT_APP_GOOGLE_ID='xxxxxxxxxxxxxxxxxxxx'
 ```
 2. Install npm dependencies
 ```
