@@ -22,6 +22,32 @@ npm start
 ## Known Issues / Resolutions
 -  ```npx create-react-app``` creates a react starter application using ```react-router-dom v6``` by default. Tweak the package.json to version 5.3.3
 
+# DECK
+
+OBJECTIVE:
+	Improve User Experience by understanding current sources of frustration
+	Measure success on the rollout of new fueatures (i.e. MFA)
+	Assist on KYC initiatives
+	Proactively look for areas of improvement
+
+INITIAL PROBLEM STATEMENT
+	"We need to figure out what is causing the password reset and authentication issues"
+	"I've started a password reset request but never received an email"
+	"I attempted to reset my password but received an error message."
+	"I'm having difficulties changing my password because the system doesn't seem to accept any of the new ones I try."
+	"My password was successfully reset, however the new password does not work"
+	"When I try to access a product, I get 403 error"
+	
+CHALLENGES:
+	CIAM is not only about Security, UX is as important
+	Quick response time (automation needed)
+	Measure 
+	
+NEXT STEPS
+	Full Redshift
+	GCP for Incident classification
+	BigQuery has a more natural way to correlate data
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
