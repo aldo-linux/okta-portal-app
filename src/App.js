@@ -1,6 +1,16 @@
 import React from 'react';
 import { BrowserRouter as Router } from 'react-router-dom';
-import AppWithRouterAccess from './AppWithRouterAccess';
+import Dashboard from './dashboard/Dashboard';
+function App() {
+  return (
+    <div className="App">
+      <Dashboard />
+    </div>
+  );
+}
+export default App;
+
+/*import AppWithRouterAccess from './AppWithRouterAccess';
 
 const App = () => (
   <Router>
@@ -8,3 +18,4 @@ const App = () => (
   </Router>
 );
 export default App;
+*/

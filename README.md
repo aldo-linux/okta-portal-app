@@ -19,6 +19,8 @@ npm start
 ## References
 - [Sign in to SPA with embedded Widget](https://developer.okta.com/docs/guides/archive-sign-in-to-spa-embedded-widget/react/main/#add-an-openid-connect-client-in-okta)
 
+- [Building Dashboards Quickly with React and Material-UI](https://medium.com/swlh/building-dashboards-quickly-with-react-and-material-ui-627074ff99ff)
+
 ## Known Issues / Resolutions
 -  ```npx create-react-app``` creates a react starter application using ```react-router-dom v6``` by default. Tweak the package.json to version 5.3.3
 
